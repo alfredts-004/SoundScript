@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
     console.log(`open ${FILE_URL} to see the uploaded file`);
 
     const client = new AssemblyAI({
-        apiKey: 'dd8becfcbf0e4e808226f7a8b2e56cf3',
+        apiKey: 'dd8becfe56cf3',
     });
 
     try {
